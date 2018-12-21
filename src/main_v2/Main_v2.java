@@ -10,6 +10,7 @@ import core.DNAStatesShifted;
 import core.States;
 import etc.NullPrintStream;
 import models.EvolModel;
+import org.junit.rules.TemporaryFolder;
 
 import java.io.File;
 import java.io.IOException;
@@ -169,15 +170,13 @@ public class Main_v2 {
                 doPlacement(argsParser);
             }
 
-
             long endTime = System.currentTimeMillis();
             System.out.println("Total execution time: " + (endTime - startTime) + " ms (" + ((endTime - startTime) / 60000) + " min)");
-            //System.exit(0);
 
         } catch (Exception ex) {
             ex.printStackTrace();
+            System.out.println(ex.getMessage());
             System.exit(1);
         }
     }
-
 }

@@ -6,7 +6,7 @@
 	<classpathentry kind="lib" path="lib/fxgraphics2d-1.3.jar"/>
 	<classpathentry kind="lib" path="lib/grad.jar"/>
 	<classpathentry kind="lib" path="lib/guava-21.0.jar"/>
-	<classpathentry kind="lib" path="lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/nikolai/idea-IU-182.5107.16/lib/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="lib/Jacksum.jar"/>
 	<classpathentry kind="lib" path="lib/jcommon-1.0.23.jar"/>
 	<classpathentry kind="lib" path="lib/jfreechart-1.5.0-SNAPSHOT.jar"/>
@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="lib/junit-4.11.jar"/>
 	<classpathentry kind="lib" path="lib/orsonpdf-1.7.jar"/>
 	<classpathentry kind="lib" path="lib/servlet.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/junit-4.11"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
